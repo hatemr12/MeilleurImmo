@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.immob.MainActivity">
+
+    <item android:id="@+id/addannonce"
+        android:title="Ajouter une annonces"
+        android:icon="@mipmap/ic_addh"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/annonce"
+        android:title="Supprimer votre annonces"
+        android:icon="@mipmap/ic_de"
+        app:showAsAction="always"/>
+    <item android:id="@+id/compte"
+        android:title="Gérer votre compte"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/apropos"
+        android:title="À propos"
+        />
+    <item android:id="@+id/exit"
+        android:title="Quitter"
+        />
+</menu>
